@@ -85,13 +85,13 @@
         </div>
       </div>
     </nav>
-
     <section
       id="home"
       class="vh-100 d-flex align-items-center text-center text-white position-relative"
     >
       <div
-        class="position-absolute top-0 start-0 w-100 h-100 bg-dark opacity-50"
+        class="position-absolute top-0 start-0 w-100 h-100 bg-dark"
+        style="opacity: 0.6"
       ></div>
 
       <div class="container position-relative">
@@ -161,7 +161,7 @@
               <div class="card-body">
                 <h3 class="card-title">Outdoor Pool</h3>
                 <p class="card-text">Swim with a beautiful park view</p>
-                <span class="badge bg-info">The most beautiful</span>
+                <span class="badge bg-secondary">The most beautiful</span>
               </div>
             </div>
           </div>
@@ -193,7 +193,7 @@
           <div class="col-md-4 mb-3">
             <div class="border p-4 rounded shadow-sm">
               <h3>Adult</h3>
-              <h3 class="text-info">$12</h3>
+              <h3 class="text-primary">$12</h3>
               <p>Unlimited per day</p>
             </div>
           </div>
@@ -201,7 +201,7 @@
           <div class="col-md-4 mb-3">
             <div class="border border-info p-4 rounded shadow">
               <h3>Family</h3>
-              <h3 class="text-info">$23</h3>
+              <h3 class="text-primary">$23</h3>
               <p>Unlimited per day</p>
             </div>
           </div>
@@ -209,7 +209,7 @@
           <div class="col-md-4 mb-3">
             <div class="border p-4 rounded shadow-sm">
               <h3>Children</h3>
-              <h3 class="text-info">$5</h3>
+              <h3 class="text-primary">$5</h3>
               <p>Unlimited per day</p>
             </div>
           </div>
@@ -280,6 +280,7 @@
                   class="form-control"
                   rows="4"
                   placeholder="Your Message"
+                  aria-label="Your Message"
                 ></textarea>
               </div>
               <button class="btn btn-warning text-dark w-100">
